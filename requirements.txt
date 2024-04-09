@@ -1,5 +1,5 @@
-gym
-torch>=1.2.0
-torchvision>=0.4.0
-tb-nightly
-requests
+gym~=0.15.3
+torch~=1.2.0
+torchvision~=0.4.0
+tb-nightly~=2.11.0a20220816
+requests~=2.22.0
