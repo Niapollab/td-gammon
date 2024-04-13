@@ -6,11 +6,27 @@
 
 ---
 # Table of Contents
+- [Build](#build)
+    - [Run in production mode](#run-in-production-mode)
+    - [Run in developing mode](#run-in-developing-mode)
 - [Usage](#usage)
     - [Train TD-Network](#train-td-network)
     - [Evaluate Agent(s)](#evaluate-agents)
     - [Web Interface](#web-interface)
     - [Plot Wins](#plot-wins)
+
+---
+## Build
+
+Run `docker build -t td-gammon .` for building the image.
+
+### Run in production mode
+
+Run `docker run -ti --name td-gammon -p 8080:80 td-gammon` for running in production mode.
+
+### Run in developing mode
+
+Run `docker run -ti --name td-gammon -p 8080:80 -v $PWD/td_gammon:/app/td_gammon td-gammon` for running in developing mode.
 
 ---
 ## Usage
