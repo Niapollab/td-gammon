@@ -8,7 +8,7 @@ from model import TDGammon, TDGammonCNN
 from web_gui.gui import GUI
 from torch.utils.tensorboard import SummaryWriter
 
-#  tensorboard --logdir=runs/ --host localhost --port 8001
+#  tensorboard --logdir=runs/ --host localhost --port 80
 
 
 def write_file(path, **kwargs):
